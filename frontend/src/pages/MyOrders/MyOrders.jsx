@@ -37,7 +37,7 @@ const MyOrders = () => {
                                 return item.name+" x "+item.quantity+", "
                             }
                         })}</p>
-                        <p>{order.amount}VND</p>
+                        <p>{order.amount}K.VND</p>
                         <p>Loại món: {order.items.length}</p>
                         <p><span>&#x25cf; </span><b>{order.status}</b></p>
                         <button onClick={fetchOrders}>Kiểm Tra</button>

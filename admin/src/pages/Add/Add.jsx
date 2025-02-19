@@ -77,7 +77,7 @@ const Add = ({url}) => {
           </div>
           <div className="add-price flex-col">
             <p>Giá Món</p>
-            <input onChange={onChangeHandler} value={data.price} type="Number" name='price' placeholder='20VND' />
+            <input onChange={onChangeHandler} value={data.price} type="Number" name='price' placeholder='20K.VND' />
           </div>
         </div>
         <button type='submit' className='add-btn'>Thêm</button>

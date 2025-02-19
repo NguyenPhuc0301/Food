@@ -93,17 +93,17 @@ const PlaceOrder = () => {
           <div>
             <div className="cart-total-details">
               <p>Tổng các món</p>
-              <p>{getTotalCartAmount()}VND</p>
+              <p>{getTotalCartAmount()}K.VND</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <p>Phí Ship</p>
-              <p>{getTotalCartAmount() === 0 ? 0 : 2}VND</p>
+              <p>{getTotalCartAmount() === 0 ? 0 : 2}K.VND</p>
             </div>
             <hr />
             <div className="cart-total-details">
               <b>Tổng Cộng</b>
-              <b>{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}VND</b>
+              <b>{getTotalCartAmount() === 0 ? 0 : getTotalCartAmount() + 2}K.VND</b>
             </div>
           </div>
           <button type='submit'>TIẾP TỤC ĐỂ THANH TOÁN</button>
